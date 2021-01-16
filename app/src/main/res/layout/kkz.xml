@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#faebd7"
+    tools:context=".kkz"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:elevation="0dp"
+        android:onClick="kohezyonlu"
+        android:text="Kohezyonlu"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView82"
+        app:layout_constraintTop_toBottomOf="@+id/textView82" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:onClick="kohezyonsuz"
+        android:text="kohezyonsuz"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView82"
+        app:layout_constraintTop_toTopOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="124dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="8dp"
+        android:onClick="zemin"
+        android:text="Zemin"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView82" />
+
+    <TextView
+        android:id="@+id/textView82"
+        android:layout_width="301dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="Parametrelerini Hesaplamak İstediğiniz Zemin Tipini Seçiniz..."
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="165dp"
+        android:layout_height="139dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:srcCompat="@drawable/sptlogo" />
+
+    <TextView
+        android:id="@+id/textView83"
+        android:layout_width="154dp"
+        android:layout_height="35dp"
+        android:text="Kohezyonlu Zemin (Kil)"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <TextView
+        android:id="@+id/textView84"
+        android:layout_width="129dp"
+        android:layout_height="41dp"
+        android:text="Kohezyonsuz Zemin (Çakıl, Kum, Silt)"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <TextView
+        android:id="@+id/textView87"
+        android:layout_width="263dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="22dp"
+        android:text="Temel Zemin Parametrelerinin Hesabı "
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/button22" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="295dp"
+        android:layout_height="53dp"
+        android:text="Su muhtevası, birim hacim ağırlık, doygunluk derecesi, gözeneklilik, boşluk oranı, kıvam limitleri vb."
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/textView87" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

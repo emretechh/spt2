@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#faebd7"
+    tools:context=".kli_es"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/textView77"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView79"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Bowles (1988)"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView77"
+        app:layout_constraintTop_toBottomOf="@+id/textView77" />
+
+    <TextView
+        android:id="@+id/textView80"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintStart_toStartOf="@+id/textView79"
+        app:layout_constraintTop_toBottomOf="@+id/textView79" />
+
+    <TextView
+        android:id="@+id/textView81"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintStart_toStartOf="@+id/textView80"
+        app:layout_constraintTop_toBottomOf="@+id/textView80" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="Hesapla"
+        android:text="Hesapla"
+        app:layout_constraintBottom_toTopOf="@+id/textView79"
+        app:layout_constraintEnd_toEndOf="@+id/ly10" />
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="30dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="8dp"
+        android:onClick="info9"
+        android:text="?"
+        android:textColor="@color/colorAccent"
+        android:textSize="8sp"
+        app:layout_constraintStart_toStartOf="@+id/button21"
+        app:layout_constraintTop_toBottomOf="@+id/button21" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ly10"
+        android:layout_width="166dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="85dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="@+id/textView81"
+        app:layout_constraintTop_toBottomOf="@+id/button31">
+
+        <TextView
+            android:id="@+id/textView91"
+            android:layout_width="161dp"
+            android:layout_height="39dp"
+            android:text="Zeminin kuvvet altındaki elastik şekil değiştirmesinin ölçüsüdür"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="10sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:onClick="ileri"
+        android:text="ileri"
+        app:layout_constraintEnd_toEndOf="@+id/button21"
+        app:layout_constraintTop_toBottomOf="@+id/ly10" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SPT</string>
+
+    <string-array name="sular">
+        <item>Su birim ağırlığı (γw) (kg / m³)</item>
+        <item>Su birim ağırlığı (γw) (N / m³)</item>
+        <item>Su birim ağırlığı (γw) (Ib / ft³)</item>
+    </string-array>
+
+    <string name="N60">
+        H<sub>2</sub>
+    </string>
+
+</resources>

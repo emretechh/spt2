@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.emrekilinc.spt2">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2158643141573816~2755574594"/>
+        <activity android:name=".kli" />
+        <activity android:name=".kkz">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ksiz1" />
+        <activity android:name=".ts" />
+        <activity android:name=".finer" />
+        <activity android:name=".dr" />
+        <activity android:name=".ksiz2" />
+        <activity android:name=".cu" />
+        <activity android:name=".qu" />
+        <activity android:name=".fi" />
+        <activity android:name=".ksizes" />
+        <activity android:name=".kli_es" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ActivityAlti" />
+        <activity android:name=".ActivityBes" />
+        <activity android:name=".ActivityBir" />
+        <activity android:name=".ActivityDokuz" />
+        <activity android:name=".ActivityDort" />
+        <activity android:name=".ActivityIki" />
+        <activity android:name=".ActivityOn" />
+        <activity android:name=".ActivityOnalti" />
+        <activity android:name=".ActivityOnbes" />
+        <activity android:name=".ActivityOnbir" />
+        <activity android:name=".ActivityOndort" />
+        <activity android:name=".ActivityOniki" />
+        <activity android:name=".ActivityOnuc" />
+        <activity android:name=".ActivitySekiz" />
+        <activity android:name=".ActivityUc" />
+        <activity android:name=".ActivityYedi" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".pdf" />
+        <activity
+            android:name=".splash"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".pdf_ksiz" />
+        <activity android:name=".ggg" />
+        <activity android:name=".finer2"></activity>
+
+
+
+    </application>
+
+</manifest>
