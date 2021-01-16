@@ -27,6 +27,7 @@ public class ActivityAlti extends AppCompatActivity {
         editText6 = (EditText) findViewById(R.id.editText6);
         button4 = (Button) findViewById(R.id.button4);
         button5 = (Button) findViewById(R.id.button5);
+
         getSupportActionBar().setTitle("Doygunluk Derecesi (Boşluk Oranına Göre)");
     }
     public void Hesapla(View view) {

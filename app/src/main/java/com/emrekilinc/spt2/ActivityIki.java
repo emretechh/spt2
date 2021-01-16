@@ -21,6 +21,7 @@ public class ActivityIki extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_iki);
 
+        
         zeditText = (EditText) findViewById(R.id.zeditText);
         zeditText2 = (EditText) findViewById(R.id.zeditText2);
         editText3 = (EditText) findViewById(R.id.editText3);
